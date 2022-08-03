@@ -4,9 +4,13 @@
   font-family: 'Inter', sans-serif;
 }
 
-body {
+html, body {
   margin: 0;
   font-family: 'Inter', sans-serif;
+}
+
+#root{
+  height: 100%;
 }
 
 .navbar-container {
@@ -55,6 +59,7 @@ body {
 }
 
 .form-btn {
+  margin-bottom: 25px;
   color: white;
   background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
   border: none;
@@ -66,10 +71,10 @@ body {
 
 .meme {
   position: relative;
+  width: 60%;
 }
 
 .meme--img {
-  margin-top: 15px;
   width: 100%;
 }
 
@@ -104,4 +109,36 @@ body {
 
 .top {
   top: 0;
+}
+
+.myFooter{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: #161619;
+  color: white;
+  padding: 10px 0;
+  width:100%;
+}
+
+.myFooter{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: #161619;
+  color: white;
+  padding: 10px 0;
+  width:100%;
+}
+
+.myFooterWithoutImg{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: #161619;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  padding: 10px 0;
+  width:100%;
 }
